@@ -1,0 +1,12 @@
+--traverse
+<IncludeRoot>/km/wdm.h
+<IncludeRoot>/shared/ntdef.h
+<IncludeRoot>/shared/guiddef.h
+<IncludeRoot>/shared/ktmtypes.h
+<IncludeRoot>/shared/evntprov.h
+<IncludeRoot>/shared/devpropdef.h
+<IncludeRoot>/km/crt/excpt.h
+--namespace
+Windows.Wdk.System.Wdm
+--additional
+-DNTDDI_VERSION=0x0A00000C

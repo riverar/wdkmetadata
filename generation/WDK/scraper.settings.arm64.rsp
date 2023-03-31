@@ -1,0 +1,16 @@
+#--with-librarypath
+#--with-type
+#--exclude
+#--remap
+--additional
+-Wno-invalid-token-paste
+-U_ARM_
+-U_M_AMD64
+-U_M_IX86
+-U_M_ARM64EC
+-D_M_ARM64=1
+-D_ARM64_
+-DARM64
+-D_USE_DECLSPECS_FOR_SAL
+-DSTD_CALL
+-DDEPRECATE_DDK_FUNCTIONS

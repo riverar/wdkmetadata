@@ -1,6 +1,14 @@
 {
   "$schema": "enums.schema.json",
-  "items":
-[
-]
+  "items": [
+    {
+      "name": "POWER_PLATFORM_ROLE",
+      "autoPopulate": {
+        "filter": "PlatformRole",
+        "header": "wdm.h"
+      },
+      "members": [],
+      "uses": []
+    }
+  ]
 }

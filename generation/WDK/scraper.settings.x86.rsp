@@ -1,0 +1,10 @@
+#--with-librarypath
+#--with-type
+#--exclude
+#--remap
+--additional
+-Wno-invalid-token-paste
+-D_M_IX86
+-DSTD_CALL
+-DDEPRECATE_DDK_FUNCTIONS
+-DMSC_NOOPT
